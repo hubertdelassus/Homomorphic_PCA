@@ -1,6 +1,9 @@
 # Homomorphic PCA
 This repository focuses on performing PCA on encrypted data. It uses [CKKS homomorphic scheme](https://eprint.iacr.org/2016/421.pdf) to perform computations on encrypted data.
 
+This code has been tested sucessfully on ubuntu 18.04.4 LTS bionic whith python 3.6 using a virtual environment for python
+using SEAL-Python version 3.3.2
+using Microoft SEAL version 3.3.2
 
 To use this repository:
 
