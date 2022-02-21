@@ -55,9 +55,10 @@ python3 pca.py
 
 For implementing CKKS homomorphic scheme, we have used SEAL-Python(python binding for the [Microsoft SEAL library](https://github.com/microsoft/SEAL))
 Dependencies required for this repository are:-
-* [Seal-Python](https://github.com/Huelse/SEAL-Python)
-* PIL
-* sklearn
+* [Seal-Python](https://github.com/Huelse/SEAL-Python) version 3.3.2
+* pillow 7.2.0 for python 3.6
+* numpy 1.13.3
+* scikit-learn->sklearn  for python 3.6
 
 The ```read_data.py``` file supports reading of 7 datasets that were used for experimentation. The [Yale face](http://vision.ucsd.edu/content/yale-face-database) dataset has been provided in the repository. Other datasets that are supported are:-
 * [Parkinsons Telemonitoring](https://archive.ics.uci.edu/ml/datasets/parkinsons)
